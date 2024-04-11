@@ -1,5 +1,5 @@
 File "original_data.csv" contains original data (with missing values)
-File contains "imputed_data.csv" estimates of the means of the outcomes following multipe imputation procedure.
+File contains "imputed_data.csv" estimates of the means of the outcomes following multiple imputation procedure.
 
 
 Structure of Data Fields: 
@@ -7,12 +7,10 @@ Structure of Data Fields:
 id - unique respondent ID
 time - Period (1=Baseline, 2=Post Intervention; 3=Followup)
 TT - (0=HRRP+; 1=3H+)
-compl - Completion status (=1 if all modules completed; 0=Otherwise)
-dinj - Injected Drugs in the past 30 days  (=1 if Yes, =0 if No)    
+compl - Completion status of intervention (=1 if all modules completed; 0=Otherwise)
+dinj - Injected Any Drugs in the past 30 days  (=1 if Yes, =0 if No)    
 dshare - Shared Syringes or Needles in 30 days  (=1 if Yes, =0 if No)     
 nosex - Sexually Active in the past 30 days (=1 if No, =0 if Yes)    
-dcond - Consistent Condom usage in the the past 30 days (=1 if Yes; =3 if No)
+dcond - Consistent Condom use in the the past 30 days (=1 if Yes; =3 if No)
 dart - "Self reported Adherence to ART (=1 if more than 95% ; =0 otherwise)
 vs - Viral suppression (=1 if Yes; 0=Otherwise)
-
-
